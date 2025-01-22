@@ -32,13 +32,13 @@ const EducationCard = ({ school, program, years, extraActivity, theme, icon }) =
 
 const Education = () => {
   return (
-    <section className="w-full py-16 px-8 bg-gray-900 transition-colors duration-300 ease-in-out hover:bg-gray-700">
+    <section className="w-full py-16 px-8 bg-gray-900 transition-colors duration-300 ease-in-out">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold text-white mb-8">Education</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <EducationCard 
-            school="Brebeuf Highschool"
+            school="College Jean-de-Brebeuf"
             program="IB program"
             years="2014 - 2019"
             extraActivity="Captain of Chess Team"
