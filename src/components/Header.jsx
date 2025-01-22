@@ -5,9 +5,11 @@ const Header = () => {
     <header className="w-full bg-gray-900 text-white p-5">
       <div className="max-w-screen-xl mx-auto flex justify-between items-center">
         {/* Main title */}
+        <a href="/" className="text-lg  transition-colors">
         <h1 className="text-2xl font-bold">
           OSCAR CHEN
         </h1>
+            </a>
         
         {/* Navigation */}
         <nav>
