@@ -7,31 +7,31 @@ const Mbti = () => {
       letter: 'I', 
       fullName: 'Introverted',
       percentage: 87,
-      description: "Introverts prefer calm, minimally stimulating environments. They tend to feel drained after socializing and need time alone to recharge. While they may excel in roles requiring deep focus and independent work, they might find high-intensity social roles more challenging. However, many introverts develop excellent social skills and can perform well in any role with proper self-care strategies."
+      description: "Introverts prefer calm, minimally stimulating environments. They excel in roles requiring deep focus and independent work. "
     },
     { 
       letter: 'N', 
       fullName: 'Intuitive',
       percentage: 54,
-      description: "Intuitive individuals focus on abstract concepts and future possibilities. They excel in innovation, strategic planning, and theoretical work. While they may sometimes overlook immediate practical details, their ability to see patterns and potential makes them valuable in roles requiring creativity and long-term vision."
+      description: "Intuitive individuals focus on abstract concepts and future possibilities. Their ability to see patterns and potential makes them valuable in roles requiring creativity and long-term vision."
     },
     { 
       letter: 'F', 
       fullName: 'Feeling',
       percentage: 54,
-      description: "Feeling types prioritize emotions and values in decision-making. They excel in roles requiring empathy, interpersonal skills, and understanding human dynamics. While they may sometimes need to balance emotional considerations with logical analysis, their ability to maintain harmony and understand others' needs is invaluable in team settings."
+      description: "Feeling types prioritize emotions and values in decision-making. They excel in roles requiring empathy, interpersonal skills, and understanding human dynamics."
     },
     { 
       letter: 'P', 
       fullName: 'Prospecting',
       percentage: 61,
-      description: "Prospecting types are flexible and adaptable, preferring to keep their options open. They excel in roles requiring spontaneity and quick adaptation to change. While they may sometimes struggle with rigid deadlines or structure, their ability to embrace uncertainty and find creative solutions is valuable in dynamic environments."
+      description: "Prospecting types are flexible and adaptable, preferring to keep their options open. They excel in roles requiring spontaneity and quick adaptation to change."
     },
     { 
       letter: 'T', 
       fullName: 'Turbulent',
       percentage: 64,
-      description: "Turbulent individuals are self-conscious and sensitive to stress, but this also drives them to improve and overcome challenges. While they may experience more anxiety about their decisions, their constant self-reflection and desire for improvement often leads to personal growth and refined work quality."
+      description: "Turbulent individuals are self-conscious and sensitive to stress. Their constant self-reflection and desire for improvement often leads to personal growth and refined work quality."
     }
   ];
 
