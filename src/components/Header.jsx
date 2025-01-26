@@ -6,11 +6,11 @@ const Header = () => {
       <div className="max-w-screen-xl mx-auto flex justify-between items-center">
         {/* Main title */}
         <a href="/" className="text-lg  transition-colors">
-        <h1 className="text-2xl font-bold">
-          OSCAR CHEN
-        </h1>
-            </a>
-        
+          <h1 className="text-2xl font-bold">
+            OSCAR CHEN
+          </h1>
+        </a>
+
         {/* Navigation */}
         <nav>
           <div className="flex items-center space-x-6">
