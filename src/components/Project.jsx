@@ -14,14 +14,14 @@ const projects = [
     title: "McGill Booking",
     teamSize: 3,
     imageUrl: "/mcgill_booking.png",
-    type: "React, php",
+    type: "React(html,css,js), XAMMP(php), AWS",
   },
   {
     id: 3,
     title: "Study Group",
     teamSize: 2,
     imageUrl: "/study.png",
-    type: "Flutter",
+    type: "Flutter(dart), Firebase",
   },
 ];
 
