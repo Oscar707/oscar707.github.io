@@ -35,7 +35,12 @@ const Header = () => {
               <a href="#/photos" className="text-lg hover:text-gray-300 transition-colors">
                 Photos
               </a>
-              <a href="#/resume" className="text-lg hover:text-gray-300 transition-colors">
+              <a 
+                href="/Oscar_CV25.pdf" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-lg hover:text-gray-300 transition-colors"
+              >
                 Resume
               </a>
             </div>
@@ -64,7 +69,12 @@ const Header = () => {
               <a href="#/photos" className="text-lg hover:text-gray-300 transition-colors py-2">
                 Photos
               </a>
-              <a href="#/resume" className="text-lg hover:text-gray-300 transition-colors py-2">
+              <a 
+                href="/Oscar_CV25.pdf" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-lg hover:text-gray-300 transition-colors py-2"
+              >
                 Resume
               </a>
             </div>
