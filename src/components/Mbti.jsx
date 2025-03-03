@@ -13,31 +13,25 @@ const Mbti = () => {
       letter: 'N', 
       fullName: 'Intuitive',
       percentage: 54,
-      description: "Intuitive individuals focus on abstract concepts and future possibilities. Their ability to see patterns and potential makes them valuable in roles requiring creativity and long-term vision."
+      description: "Intuitors focus on abstract patterns, possibilities, and future implications instead of concrete, facts and details"
     },
     { 
       letter: 'F', 
       fullName: 'Feeling',
       percentage: 54,
-      description: "Feeling types prioritize emotions and values in decision-making. They excel in roles requiring empathy, interpersonal skills, and understanding human dynamics."
+      description: "Feelers prioritize emotions, personal values, and consequence on others as opposed to making decisions based on logical analysis, objective criteria, and impersonal reasoning."
     },
     { 
       letter: 'P', 
       fullName: 'Prospecting',
       percentage: 61,
-      description: "Prospecting types are flexible and adaptable, preferring to keep their options open. They excel in roles requiring spontaneity and quick adaptation to change."
+      description: "Prospecting types are flexible and adaptable, preferring to keep their options open as opposed to having things structured, planned and decided."
     },
-    { 
-      letter: 'T', 
-      fullName: 'Turbulent',
-      percentage: 64,
-      description: "Turbulent individuals are self-conscious and sensitive to stress. Their constant self-reflection and desire for improvement often leads to personal growth and refined work quality."
-    }
   ];
 
   return (
     <div className="bg-gray-800 p-6 rounded-lg">
-      <h2 className="text-2xl font-bold text-white mb-6 text-center"> The Mediator INFP-T</h2>
+      <h2 className="text-2xl font-bold text-white mb-6 text-center"> The Mediator INFP</h2>
       <div className="space-y-6">
         {traits.map((trait, index) => (
           <div key={index} className="relative">

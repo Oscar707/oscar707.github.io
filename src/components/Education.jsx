@@ -1,7 +1,13 @@
 import React from 'react';
-import {  GraduationCap,  Calendar,   Crown,   Gamepad2,   Users } from 'lucide-react';
+import {
+  GraduationCap,
+  Calendar,
+  Crown,
+  Gamepad2,
+  Users
+} from 'lucide-react';
 
-const EducationCard = ({ school, program, years, extraActivity, theme, icon }) => {
+const EducationCard = ({ school, program, years, extraActivity, extraActivityLink, theme, icon }) => {
   const themes = {
     brebeuf: 'hover:bg-red-900',
     marianopolis: 'hover:bg-blue-400',
@@ -24,7 +30,18 @@ const EducationCard = ({ school, program, years, extraActivity, theme, icon }) =
 
       <div className="flex items-center gap-2 text-gray-300">
         {icon}
-        <span>{extraActivity}</span>
+        {extraActivityLink ? (
+          <a 
+            href={extraActivityLink} 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="hover:text-white hover:underline transition-colors"
+          >
+            {extraActivity}
+          </a>
+        ) : (
+          <span>{extraActivity}</span>
+        )}
       </div>
     </div>
   );
@@ -42,8 +59,9 @@ const Education = () => {
             program="IB program"
             years="2014 - 2019"
             extraActivity="Captain of Chess Team"
+            extraActivityLink="https://www.fqechecs.qc.ca/membres/index.php?Id=105362"
             theme="brebeuf"
-            icon={<Crown size={18} />}  
+            icon={<Crown size={18} />}
           />
 
           <EducationCard 
@@ -51,6 +69,7 @@ const Education = () => {
             program="Pure and Applied Sciences"
             years="2019 - 2021"
             extraActivity="Jungler for the eSports team"
+            extraActivityLink="https://u.gg/lol/profile/na1/ambusher-smg/overview"
             theme="marianopolis"
             icon={<Gamepad2 size={18} />}
           />
