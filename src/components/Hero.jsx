@@ -7,7 +7,9 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto w-full flex flex-col md:flex-row md:gap-8">
         <div className="w-full md:w-2/3 mb-8 md:mb-0">
           <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold">
-            <span className="text-white">Recent graduate motivated by learning and problem solving</span>
+            <br></br>
+            <span className="text-white">Depth first, <br></br>
+               breadth later</span>
           </h1>
         </div>
         <div className="w-full md:w-1/3">
