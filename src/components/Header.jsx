@@ -18,13 +18,13 @@ const Header = () => {
         {/* Navigation */}
         <nav>
           <div className="flex items-center space-x-6">
-            <a href="/" className="text-lg hover:text-gray-400 hover:translate-x-1 transition-all duration-200">
+            <a href="#/" className="text-lg hover:text-gray-400 hover:translate-x-1 transition-all duration-200">
               Home
             </a>
-            <a href="/projects" className="text-lg hover:text-gray-400 hover:translate-x-1 transition-all duration-200">
+            <a href="#/projects" className="text-lg hover:text-gray-400 hover:translate-x-1 transition-all duration-200">
               Projects
             </a>
-            <a href="/photos" className="text-lg hover:text-gray-400 hover:translate-x-1 transition-all duration-200">
+            <a href="#/photos" className="text-lg hover:text-gray-400 hover:translate-x-1 transition-all duration-200">
               Photos
             </a>
             <a 
