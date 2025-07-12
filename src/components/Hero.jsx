@@ -1,20 +1,41 @@
-import React from 'react';
-import Mbti from './Mbti';
+import React, { useState, useEffect } from 'react';
 
 const Hero = () => {
+  const [text, setText] = useState('');
+  const [showUnderscore, setShowUnderscore] = useState(true);
+  const fullText = 'Welcome';
+  
+  useEffect(() => {
+    // Typing animation
+    if (text.length < fullText.length) {
+      const typingTimeout = setTimeout(() => {
+        setText(fullText.slice(0, text.length + 1));
+      }, 70); // Add a new letter every 200ms
+      
+      return () => clearTimeout(typingTimeout);
+    }
+  }, [text]);
+
+  useEffect(() => {
+    // Blinking underscore animation
+    const interval = setInterval(() => {
+      setShowUnderscore(prev => !prev);
+    }, 500);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
-    <section className="min-h-[50vh] bg-slate-800 px-4 md:px-8 py-8 flex flex-col justify-center">
-      <div className="max-w-7xl mx-auto w-full flex flex-col md:flex-row md:gap-8">
-        <div className="w-full md:w-2/3 mb-8 md:mb-0">
-          <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold">
-            <br></br>
-            <span className="text-white">Depth first, <br></br>
-               breadth later</span>
-          </h1>
-        </div>
-        <div className="w-full md:w-1/3">
-          <Mbti />
-        </div>
+    <section className="min-h-[50vh] bg-slate-800 px-4 md:px-8 py-8 flex items-center justify-center">
+      <div className="max-w-7xl w-full text-center">
+        <h1 className="text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold font-mono">
+          <span className="text-[#8B5CF6]">&gt;&nbsp;</span>
+          <span className="text-[#8B5CF6]">{text}</span>
+          <span className="w-[0.5em] inline-block text-[#8B5CF6]" style={{ 
+            opacity: showUnderscore ? 0.70 : 0,
+            transition: 'opacity 0.1s ease'
+          }}>_</span>
+        </h1>
       </div>
     </section>
   );
