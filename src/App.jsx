@@ -4,6 +4,8 @@ import Hero from "./components/Hero"
 import Education from './components/Education'
 import Project from './components/Project'
 import Mbti from './components/Mbti'
+import Articles from './components/Articles'
+import ArticlesIterations from './components/ArticlesIterations'
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
             </>
           } />
           <Route path="/projects" element={<Project />} />
+          <Route path="/articles" element={<Articles />} />
+          <Route path="/articles/iterations" element={<ArticlesIterations />} />
           {/* Add more routes as needed */}
         </Routes>
       </div>
