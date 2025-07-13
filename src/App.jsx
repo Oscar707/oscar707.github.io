@@ -3,7 +3,6 @@ import Header from "./components/Header"
 import Hero from "./components/Hero"
 import Education from './components/Education'
 import Project from './components/Project'
-import Mbti from './components/Mbti'
 import Articles from './components/Articles'
 import ArticlesIterations from './components/ArticlesIterations'
 
