@@ -4,7 +4,7 @@ export default function ArticlesNaval() {
   return (
     <div className="w-full max-w-screen-md mx-auto p-5">
       <div className="bg-gray-800 rounded-lg p-6 mb-6">
-        <div className="text-gray-400 text-sm mb-2">June 2025</div>
+        <div className="text-gray-400 text-sm mb-2">July 2025</div>
         <h1 className="text-3xl font-bold text-cyan-400 mb-4">Naval Ravikant</h1>
         
         <p className="text-gray-200 mb-4">
