@@ -2,9 +2,9 @@ import React from 'react';
 
 const articles = [
   {
-    date: 'April 2024',
-    title: 'Iterations: The Journey of Building This Site',
-    summary: 'A behind-the-scenes look at the process, challenges, and lessons learned while developing this website. Explore the iterations, design choices, and what comes next.',
+    date: 'July 2025',
+    title: 'Iterations: Improve sustainably',
+    summary: 'How to get better at anything in life.',
     url: '#/articles/iterations',
   },
   // Add more articles here as needed
