@@ -5,6 +5,7 @@ import Education from './components/Education'
 import Project from './components/Project'
 import Articles from './components/Articles'
 import ArticlesIterations from './components/ArticlesIterations'
+import ArticlesNaval from './components/ArticlesNaval'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/projects" element={<Project />} />
           <Route path="/articles" element={<Articles />} />
           <Route path="/articles/iterations" element={<ArticlesIterations />} />
+          <Route path="/articles/naval" element={<ArticlesNaval />} />
           {/* Add more routes as needed */}
         </Routes>
       </div>

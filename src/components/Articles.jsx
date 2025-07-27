@@ -7,6 +7,12 @@ const articles = [
     summary: 'How to get better at anything in life.',
     url: '#/articles/iterations',
   },
+  {
+    date: 'July 2025',
+    title: 'Naval Ravikant',
+    summary: 'An intellectual reader',
+    url: '#/articles/naval',
+  },
   // Add more articles here as needed
 ];
 
