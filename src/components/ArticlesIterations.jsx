@@ -13,10 +13,10 @@ export default function ArticlesIterations() {
           The purpose of this article is to share a study method that I used during my college years. This method changed how I improve in other areas of life as well.
         </p>
         <p className="text-gray-200 mb-4">
-          The "classic" way of studying for a multiple choice test was to do 50 multiple choice questions, check the answers, then review all the mistakes. This method is ineffective because for every new question, I assume that my previous thought processes / answers are correct.
+          The "classic" way of studying for a multiple choice test was to do 50 multiple choice questions, check the answers, then review all the mistakes. This method is ineffective because for every new question, we assume that our previous thought processes / answers were correct.
         </p>
         <p className="text-gray-200 mb-4">
-          The technique I use now is the following: Self-correct after every multiple choice question. By reviewing after every mistake, my brain + thought processes are clearer and less contaminated.</p>
+          The technique I use now is the following: Self-correct after every question. By reviewing after every mistake, my thought processes are clearer and less "contaminated" by previous mistakes.</p>
       </div>
     </div>
   );
